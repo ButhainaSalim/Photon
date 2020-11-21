@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Balsamiq Sans", cursive;
+}
+#logo {
+  font-family: "Balsamiq Sans", cursive;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 30vh;
+}
+header h2 {
+  padding: 2rem;
+}
+#logo {
+  text-decoration: none;
+  color: rgb(27, 36, 82);
+  font-family: "Pacifico", cursive;
+  font-size: 3rem;
+}
+form {
+  display: flex;
+  padding: 1rem;
+  width: 30%;
+}
+
+form input,
+form button {
+  padding: 1rem;
+  font-size: 1rem;
+  border: none;
+  background-color: rgb(197, 206, 253);
+}
+
+form button {
+  font-weight: bolder;
+  background-color: rgb(125, 165, 172);
+  color: white;
+  cursor: pointer;
+}
+form input {
+  width: 100%;
+}
+
+.gallery-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: rgb(26, 33, 48);
+  padding: 1rem 0;
+}
+.gallery-info a {
+  color: rgb(26, 33, 48);
+}
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  padding: 2rem 0rem;
+  width: 80%;
+  margin: auto;
+  row-gap: 1rem;
+  column-gap: 2rem;
+}
+.gallery-img {
+  height: 90%;
+}
+.gallery-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.more {
+  padding: 1rem 3rem;
+  font-size: 1rem;
+  border: none;
+  background-color: rgb(197, 206, 253);
+  font-weight: bolder;
+  background-color: rgb(125, 165, 172);
+  color: white;
+  cursor: pointer;
+}
+.nav-button {
+  min-height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
